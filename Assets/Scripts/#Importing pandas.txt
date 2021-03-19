@@ -1,0 +1,8 @@
+#Importing pandas
+import pandas as pd 
+#Difining data frames
+#data frame 1
+data_1 =pd.read_csv('content_data.csv')
+df_1 =pd.DataFrame(data_1) 
+# Preview of data frame 1
+df_1.head()
